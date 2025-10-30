@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-18 02:25:42.635286",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "department",
+  "column_break_uhid",
+  "fiscal_month",
+  "column_break_xphn",
+  "total_department_revenue",
+  "column_break_kyfe",
+  "allocated_pool",
+  "section_break_ljhd",
+  "revenue_distribution_items"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "column_break_uhid",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fiscal_month",
+   "fieldtype": "Date",
+   "label": "fiscal_month"
+  },
+  {
+   "fieldname": "section_break_ljhd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_department_revenue",
+   "fieldtype": "Currency",
+   "label": "total_department_revenue"
+  },
+  {
+   "fieldname": "allocated_pool",
+   "fieldtype": "Currency",
+   "label": "allocated_pool"
+  },
+  {
+   "fieldname": "column_break_xphn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kyfe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "revenue_distribution_items",
+   "fieldtype": "Table",
+   "label": "revenue_distribution_items",
+   "options": "Department Revenue Distribution Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-18 02:44:45.363021",
+ "modified_by": "Administrator",
+ "module": "Nano Thorah HR",
+ "name": "Department Revenue Distribution",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

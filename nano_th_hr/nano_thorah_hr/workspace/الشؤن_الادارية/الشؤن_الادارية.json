@@ -1,0 +1,79 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"\u0627\u0644\u0634\u0624\u0646 \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629\"}}]",
+ "creation": "2025-09-21 01:51:26.087235",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table_2",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "\u0627\u0644\u0634\u0624\u0646 \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee",
+   "link_count": 0,
+   "link_to": "Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Group",
+   "link_count": 0,
+   "link_to": "Employee Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Grade",
+   "link_count": 0,
+   "link_to": "Employee Grade",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-09-21 01:57:57.754683",
+ "modified_by": "Administrator",
+ "module": "Nano Thorah HR",
+ "name": "\u0627\u0644\u0634\u0624\u0646 \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 61.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Payroll Dashboard",
+   "link_to": "Payroll",
+   "type": "Dashboard"
+  },
+  {
+   "doc_view": "",
+   "label": "HR Dashboard",
+   "link_to": "Human Resource",
+   "type": "Dashboard"
+  },
+  {
+   "doc_view": "",
+   "label": "Employee",
+   "link_to": "Employee",
+   "type": "DocType"
+  }
+ ],
+ "title": "\u0627\u0644\u0634\u0624\u0646 \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629"
+}

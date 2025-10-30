@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-18 02:32:36.947458",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "column_break_xmrr",
+  "present_days",
+  "column_break_mefv",
+  "shifts_count",
+  "column_break_xpmm",
+  "performance_weight",
+  "column_break_krnd",
+  "base_share",
+  "column_break_ymvt",
+  "final_share",
+  "section_break_avvc",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_xmrr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "present_days",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "present_days"
+  },
+  {
+   "fieldname": "column_break_mefv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shifts_count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "shifts_count"
+  },
+  {
+   "fieldname": "column_break_xpmm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1.0",
+   "fieldname": "performance_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "performance_weight"
+  },
+  {
+   "fieldname": "column_break_krnd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "base_share",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "base_share"
+  },
+  {
+   "fieldname": "column_break_ymvt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "final_share",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "final_share"
+  },
+  {
+   "fieldname": "section_break_avvc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-18 02:43:20.549585",
+ "modified_by": "Administrator",
+ "module": "Nano Thorah HR",
+ "name": "Department Revenue Distribution Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
